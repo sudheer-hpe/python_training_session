@@ -1,0 +1,9 @@
+[tool.poetry]
+name = "python_training_session"
+version = "0.0.1"
+description = "Python Training Session Repo"
+authors = ["Sudheer Kumar P.", "Haarthi Vijayaraghavan"]
+
+[tool.poetry.dependencies]
+python = ">=3.10, <4.0"
+pytest = "^8.2.0"
