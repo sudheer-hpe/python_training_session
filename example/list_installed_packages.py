@@ -15,13 +15,13 @@ def list_installed_packages():
     List all installed packages and their versions.
 
     This function retrieves all installed packages using `importlib.metadata.distributions`,
-    sorts them in reverse order, and prints each package with its version.
+    sorts them alphabetically by package name, and prints each package with its version.
 
     Returns:
     None
     """
     installed_packages = importlib.metadata.distributions()
-    sorted_packages = sorted([f"{pkg.metadata['Name']}=={pkg.version}" for pkg in installed_packages], reverse=True)
+    sorted_packages = sorted([f"{pkg.metadata['Name']}=={pkg.version}" for pkg in installed_packages])
 
     print("Installed packages:")
     for package in sorted_packages:
