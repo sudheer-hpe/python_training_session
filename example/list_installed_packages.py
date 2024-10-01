@@ -15,7 +15,7 @@ def list_installed_packages():
     List all installed packages and their versions.
 
     This function retrieves all installed packages using `importlib.metadata.distributions`,
-    sorts them alphabetically by package name, and prints each package with its version.
+    sorts them, and prints each package with its version.
 
     Returns:
     None
