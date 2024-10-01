@@ -6,7 +6,7 @@ def feature_file1():
     print("hello")
     
     
-def feature_file2():
+def test_python():
     print("Feature in file - main branch")
     print("hello")
 

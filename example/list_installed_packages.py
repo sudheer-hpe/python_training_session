@@ -26,7 +26,7 @@ def list_installed_packages():
     print("Installed packages:")
     for package in sorted_packages:
         print(package)
-        print("hello")
+        print("package_name")
 
 
 if __name__ == "__main__":
