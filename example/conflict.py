@@ -4,6 +4,7 @@ This script demonstrates functionality in file1.
 def feature_file1():
     print("Feature in file - main branch")
     print("hello")
+    print("new changes")
     
     
 def test_python():
