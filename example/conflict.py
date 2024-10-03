@@ -8,7 +8,7 @@ def feature_file1():
     
     
 def test_python():
-    print("Feature in file - main branch")
+    print("Test")
     print("hello")
 
 if __name__ == "__main__":
