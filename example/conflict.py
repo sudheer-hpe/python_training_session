@@ -11,5 +11,8 @@ def test_python():
     print("Feature in file - main branch")
     print("hello")
 
+def test_python_pytest():
+    print("Added new method as test_python_pytest")
+
 if __name__ == "__main__":
     feature_file1()
