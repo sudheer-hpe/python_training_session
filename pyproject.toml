@@ -2,7 +2,7 @@
 name = "python_training_session"
 version = "0.0.1"
 description = "Python Training Session Repo"
-authors = ["Sudheer Kumar P.", "Haarthi Vijayaraghavan"]
+authors = ["Sudheer Kumar P."]
 
 [tool.poetry.dependencies]
 python = ">=3.10, <4.0"
