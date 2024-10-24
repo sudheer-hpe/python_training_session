@@ -27,13 +27,16 @@ count = 0
 
 class TestAPI:
     """
-    TestAPI class contains test cases for API endpoints.
+    A class to test various API endpoints.
     """
 
     @pytest.mark.dependency(name="create_database")
     def test_create_database(self, create_database):
         """
         Test the database creation endpoint.
+
+        Args:
+            create_database (Response): The response object from the database creation request.
         """
         response = create_database
         assert response.status_code == 200, "Database Creation failed!!"
@@ -54,6 +57,9 @@ class TestAPI:
     def test_add_entry(self, data):
         """
         Test the entry addition endpoint with various data.
+
+        Args:
+            data (dict): The data to be added to the database.
         """
         api_session = APISession(BASE_URL)
         endpoint = "entry"
