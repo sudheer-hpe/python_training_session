@@ -7,3 +7,4 @@ authors = ["Sudheer Kumar P."]
 [tool.poetry.dependencies]
 python = ">=3.10, <4.0"
 pytest = "^8.2.0"
+requests = "^2.32.3"
