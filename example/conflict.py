@@ -5,6 +5,9 @@ def feature_file1():
     print("Feature in file - main branch")
     print("hello")
     print("new changes")
+
+def test1():
+    print("testing the function")
     
     
 def test_python():
@@ -13,3 +16,4 @@ def test_python():
 
 if __name__ == "__main__":
     feature_file1()
+    test1()
